@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+/* top --------------------*/
+.top {
+  background-image: url(../img/contact-top.png);
+  background-size: cover;
+  background-position: 70% 20%;
+}
+
+/* contact -----------------*/
+.contact-wrapper__con {
+  margin-top: 4rem;
+  padding: 4rem;
+  border: 1px solid #555;
+}
+
+.contact-wrapper__form__box {
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1px solid #A5A5A5;
+}
+
+.contact-wrapper__form__box__ttl-outer {
+  width: 32%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  background-color: #D6E1F3;
+}
+
+.contact-wrapper__form__box__ttl {
+  width: 60%;
+  position: relative;
+}
+
+.contact-wrapper__form__box__ttl::after {
+  content: "必須";
+  width: 4rem;
+  line-height: 2.4;
+  background-color: #90193E;
+  position: absolute;
+  top: 50%;
+  right: -68%;
+  transform: translateY(-50%) translateX(-50%);
+  text-align: center;
+  color: #FFF;
+}
+
+.contact-wrapper__form__box__input-outer {
+  width: 68%;
+  padding-left: 2.8%;
+}
+
+.contact-wrapper__form__box__input {
+  width: 92%;
+  height: 2.4rem;
+  border: 1px solid #A5A5A5;
+  padding: 0 0.8rem;
+}
+
+.contact-wrapper__form__box__area-outer {
+  width: 68%;
+  height: 100%;
+  padding-left: 2.8%;
+}
+
+.__radio {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contact-wrapper__form__box__input__item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 3.2rem;
+}
+
+.contact-wrapper__form__box__input__item__select {
+  margin-right: 0.4rem;
+  transform: scale(1.2);
+}
+
+.__area {
+  height: 16rem;
+  align-items: start;
+  border-bottom: 1px solid #A5A5A5;
+}
+
+.__area-ttl {
+  align-items: start;
+}
+
+.__area-ttl label {
+  margin-top: 2rem;
+}
+
+.contact-wrapper__form__box__area {
+  width: 92%;
+  height: 72%;
+  margin-top: 2rem;
+  padding: 0.8rem 0.8rem 0;
+  border: 1px solid #A5A5A5;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.submit-btn {
+  display: block;
+  color: #FFF;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.submit-btn:hover {
+  color: #437BD1;
+}
+
+/* レスポンシブ ------------------*/
+@media screen and (min-width: 1024px) {}
+
+@media screen and (max-width: 1024px) {
+  .contact-wrapper__con {
+    padding: 1.6rem;
+  }
+
+  .contact-wrapper__form__box__ttl-outer {
+    padding-left: 1.2rem;
+  }
+
+  .contact-wrapper__form__box__ttl::after {
+    top: 50%;
+    right: -80%;
+    transform: translateY(-50%) translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-wrapper__form__box {
+    display: block;
+    height: 100%;
+  }
+
+  .contact-wrapper__form__box__ttl-outer {
+    width: 100%;
+    display: block;
+    text-align: left;
+  }
+
+  .contact-wrapper__form__box__ttl-outer {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .contact-wrapper__form__box__input-outer {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .contact-wrapper__form__box__input {
+    width: 100%;
+    padding: 0;
+  }
+  
+  .contact-wrapper__form__box__area-outer {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .contact-wrapper__form__box__area {
+    width: 100%;
+    padding: 0;
+  }
+
+  .contact-wrapper__form__box__ttl {
+    display: block;
+    width: auto;
+    line-height: 4;
+    padding-left: 0.8rem;
+  }
+
+  .contact-wrapper__form__box__ttl::after {
+    right: 4%;
+    transform: translateY(-50%);
+  }
+
+  .contact-wrapper__form__box__input__item {
+    margin-right: 8%;
+    line-height: 4;
+  }
+
+  .contact-wrapper__form__box__input-outer {
+    line-height: 4.8;
+  }
+
+  .contact-wrapper__form__box__area {
+    height: 12rem;
+    padding-top: 0.6rem;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+
+  .__area-ttl label {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .__radio {
+    display: block;
+    margin-left: 0.6rem;
+  }
+}
