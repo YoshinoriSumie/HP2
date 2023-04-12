@@ -83,11 +83,12 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  border-top: 1px solid #CECECE;
+  border: 1px solid #CECECE;
+  border-top: none;
 }
 
-.overview-wrapper__con__block:last-child {
-  border-bottom: 1px solid #CECECE;
+.overview-wrapper__con__block:first-child {
+  border-top: 1px solid #CECECE;
 }
 
 .overview-wrapper__con__block__item {

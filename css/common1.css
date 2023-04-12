@@ -36,8 +36,8 @@ li {
 }
 
 .section {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
 }
 
 .s-ttl__en h2 {
@@ -455,7 +455,7 @@ header .drawer {
   
   header .header-wrapper__nav__list {
     display: block;
-    width: 50%;
+    width: 70%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -471,12 +471,16 @@ header .drawer {
   }
   
   header .header-wrapper__nav__list__item.__contact {
-    width: 10rem;
+    width: 16rem;
     line-height: 4.8;
     background-color: #437BD1;
     text-align: center;
     margin: 2rem auto 0;
     clip-path: polygon(10% 0%, 0% 0%, 100% 0%, 90% 100%, 0% 100%);
+  }
+
+  .header-wrapper__nav__list__item a {
+    font-size: 1.25rem;
   }
 
   .contact-wrapper__con {
