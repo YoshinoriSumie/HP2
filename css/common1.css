@@ -471,12 +471,11 @@ header .drawer {
   }
   
   header .header-wrapper__nav__list__item.__contact {
-    width: 16rem;
-    line-height: 4.8;
+    width: 14rem;
+    line-height: 4;
     background-color: #437BD1;
     text-align: center;
-    margin: 2rem auto 0;
-    clip-path: polygon(10% 0%, 0% 0%, 100% 0%, 90% 100%, 0% 100%);
+    margin: 1.6rem auto 0;
   }
 
   .header-wrapper__nav__list__item a {
@@ -555,6 +554,18 @@ header .drawer {
     display: inline-block;
   }
 
+  .s-ttl__en h2 {
+    font-size: 3.2rem;
+  }
+
+  .s-ttl__ja h2 {
+    font-size: 1.4rem;
+  }
+
+  .s-ttl__ja {
+    top: -2.8rem;
+  }
+
   .contact-wrapper__con__btn {
     display: block;
   }
@@ -568,6 +579,18 @@ header .drawer {
   }
 
   .footer-wrapper__left__info__tel i {
+    font-size: 0.875rem;
+  }
+
+  .__contact-btn {
+    width: 16rem;
+  }
+
+  .__contact-btn a {
+    font-size: 1rem;
+  }
+
+  .contact-wrapper__con__hours p {
     font-size: 0.875rem;
   }
 }

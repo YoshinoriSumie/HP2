@@ -17,7 +17,7 @@
   height: 100%;
   background-color: #437BD1;
   opacity: 0.6;
-  clip-path: polygon(0% 0%, 0% 0%, 60% 0%, 30% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 0% 0%, 68% 0%, 36% 100%, 0% 100%);
   z-index: -20;
 }
 
@@ -80,7 +80,7 @@
     height: 50vh;
   }
   .top-wrapper__bg {
-    clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 100%, 0% 100%);
     z-index: -20;
     }
 
@@ -96,11 +96,11 @@
   }
   
   .top-wrapper__con__ttl__en h1 {
-    font-size: 3.6rem;
+    font-size: 3.2rem;
   }
   
   .top-wrapper__con__ttl__ja p {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     }
 }
 

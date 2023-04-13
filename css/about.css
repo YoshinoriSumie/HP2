@@ -226,7 +226,8 @@
     padding-left: 0.8rem;
   }
 
-  .overview-wrapper__con__block__txt.__service {
+  .overview-wrapper__con__block__txt.__service,
+  .overview-wrapper__con__block__txt.__address {
     line-height: 2;
   }
 }
